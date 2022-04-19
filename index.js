@@ -98,3 +98,10 @@ let mewt = module.exports = (parent, targetPath = []) => {
     setPrototypeOf: mutationTrapError
   })
 }
+
+
+const funct = (ass) => {
+  console.log(`${ass} likes that`)
+}
+
+funct();
